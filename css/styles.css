@@ -80,11 +80,3 @@ header {
 p {
   margin: 0;
 }
-
-.chat-form {
-  border-radius: 50%;
-}
-
-button img {
-  max-width: 20px;
-}
