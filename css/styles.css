@@ -1,3 +1,7 @@
+html{
+  background-color: black;
+}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -86,4 +90,27 @@ header {
 
 p {
   margin: 0;
+}
+
+.keyboard {
+  display: flex;
+  padding: 20px 10px;
+  background: rgb(156,41,46);
+  background: radial-gradient(circle, rgba(156,41,46,1) 0%, rgba(119,33,39,1) 100%);
+  position: sticky;
+  bottom: 0;
+}
+
+.send-message {
+  max-width: 50px;
+}
+
+.type-message {
+  flex-grow: 1;
+  background-color: #e9bfc6;
+  color: #9c292e;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 7px 20px;
+  border-radius: 30px;
 }
