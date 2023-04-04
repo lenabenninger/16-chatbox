@@ -3,12 +3,23 @@ body {
   margin: auto;
   background: #ddd;
   background: rgb(83,24,39);
-background: radial-gradient(circle, rgba(83,24,39,1) 0%, rgba(42,21,34,1) 100%);
+  background: radial-gradient(circle, rgba(83,24,39,1) 0%, rgba(42,21,34,1) 100%);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.elements-necessaires {
+  display: flex;
+}
+
+.elements-necessaires .element {
+  max-width: 50px;
+  color: #e9bfc6;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
 }
 
 .chatbox-messages {
@@ -17,8 +28,8 @@ img {
   padding: 15px 25px;
   border-radius: 30px;
   padding: 10px 20px;
-  margin: 10px;
-
+  margin: 0 25px 40px 25px;
+  max-width: 200px;
 }
 
 .chat-container {
@@ -30,6 +41,7 @@ img {
 .chat-container .message-sophie {
   align-self: flex-start;
   border-bottom-left-radius: 0;
+  color: #2a1522;
   background-color: #e9bfc6;
   border-bottom: 4px solid #9c292e;
 }
@@ -37,6 +49,7 @@ img {
 .chat-container .message-reader {
   align-self: flex-end;
   border-bottom-right-radius: 0;
+  color: #e9bfc6;
   background-color: #9c292e;
   border-bottom: 4px solid #e9bfc6;
 }
