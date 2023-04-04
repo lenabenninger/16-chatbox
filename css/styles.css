@@ -1,6 +1,7 @@
 body {
   max-width: 320px;
   margin: auto;
+  font-family: 'Assistant', sans-serif;
   background: #ddd;
   background: rgb(83,24,39);
   background: radial-gradient(circle, rgba(83,24,39,1) 0%, rgba(42,21,34,1) 100%);
@@ -11,25 +12,41 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  color: #e9bfc6;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 15px 25px 0;
+}
+
 .elements-necessaires {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 20px 10px;
 }
 
 .elements-necessaires .element {
   max-width: 50px;
   color: #e9bfc6;
-  font-family: 'Assistant', sans-serif;
   font-weight: bold;
 }
 
+header {
+  background: rgb(156,41,46);
+  background: radial-gradient(circle, rgba(156,41,46,1) 0%, rgba(119,33,39,1) 100%);
+  margin-bottom: 40px;
+  position: sticky;
+  top: 0;
+}
+
 .chatbox-messages {
-  font-family: 'Assistant', sans-serif;
   font-size: 16px;
   padding: 15px 25px;
   border-radius: 30px;
   padding: 10px 20px;
   margin: 0 25px 40px 25px;
-  max-width: 200px;
+  max-width: 60%;
 }
 
 .chat-container {
@@ -57,10 +74,17 @@ img {
 .chatbox-messages .message-time {
   font-size: 10px;
   margin: 0;
-  padding: 0px 18px 2px 0px;
   text-align: right;
 }
 
 p {
   margin: 0;
+}
+
+.chat-form {
+  border-radius: 50%;
+}
+
+button img {
+  max-width: 20px;
 }
