@@ -30,14 +30,14 @@ h1 {
   padding: 15px 25px 0;
 }
 
-.elements-necessaires {
+.contact-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px 20px 10px;
 }
 
-.elements-necessaires .element {
+.contact-info .element {
   max-width: 50px;
   color: #e9bfc6;
   font-weight: bold;
@@ -50,7 +50,7 @@ h1 {
   text-align: center;
 }
 
-.chatbox-messages {
+.messages {
   font-size: 16px;
   padding: 10px 20px;
   margin: 0 25px 40px 25px;
@@ -80,7 +80,7 @@ h1 {
   border-bottom: 6px solid #e9bfc6;
 }
 
-.chatbox-messages .message-time {
+.messages .message-time {
   font-size: 10px;
   margin: 0;
   text-align: right;
